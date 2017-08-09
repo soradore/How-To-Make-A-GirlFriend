@@ -17,6 +17,10 @@ class GirlFriend{
 	function MakeChildEvent(){
 		//by LUNATiC TiME
 	}
+	
+	function DeathEvent(){
+		//fight
+	}
 
 }
 

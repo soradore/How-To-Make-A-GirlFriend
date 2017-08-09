@@ -1,3 +1,6 @@
+# HELP ME!!!
+# 誰か php -> ruby にしてぇぇぇえええ！！！()
+
 class GirlFriend
 
 	def initialize
@@ -10,6 +13,7 @@ class GirlFriend
 	end
 
 	def MakeChildEvent
+		Child.new
 	end
 
 	def DeathEvent

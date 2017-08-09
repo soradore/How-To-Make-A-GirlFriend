@@ -2,26 +2,36 @@
 
 class GirlFriend{
 
+	public $children = [];
+
 	function __construct(){
-		echo "Hi, PHPer!";
 	}
 
 	function MakeCoupleEvent(){
-		//by Sora
 	}
 
 	function DestoryCoupleEvent(){
-		//by Sora
 	}
 
 	function MakeChildEvent(){
-		//by LUNATiC TiME
+		$children[] = new Child();
 	}
 	
-	function DeathEvent(){
-		//fight
+	function __destruct(){
 	}
 
 }
+
+
+class Child{
+
+	function __construct(){
+	}
+
+	function __destruct(){
+	}
+
+}
+
 
 new GirlFriend();
